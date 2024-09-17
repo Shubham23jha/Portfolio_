@@ -1,0 +1,15 @@
+[
+    {
+      "title": "Realtime Gait Phase Prediction And Early Detection Of Gait Abnormality",
+      "subtitle": "3rd Year Project IIIT Kalyani",
+      "description": "Leveraged 91% accuracy in real time classification on predicted next gait step with r2 score over 0.91 and 0.57 using Convolutional Long Short-Term Memory (LSTM) based Attention model on walking data recorded through a portable module engineered with MPU 6050 sensor, Bluetooth module and Arduino in a lab setting. Realtime prediction was done in order of microseconds. The ANN model for classification was pretrained on Gait Rec dataset and transfer learning was used for recorded data.",
+      "status":"Under Publication"
+    },
+      {
+        "title": "Precision Agriculture Using IOT",
+        "subtitle": "4th Year Project IIIT Kalyani",
+        "description": "A noble circuit of IOT sensor was water reggulation and presion Agriculture recommendation",
+        "status":"Coming Up : July 2025"
+      }
+  ]
+  

@@ -1,0 +1,119 @@
+/* src/Skills.css */
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    color: rgb(193, 192, 192);
+    position:relative;
+}
+
+.skill-card {
+    background:transparent;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(227, 255, 11, 0.792);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+.skill-card:hover {
+    transform: scale(1.05);
+}
+
+.skill-card h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+@media (max-width:900px) {
+  
+.skills-container {
+    /* display: block; */
+    width:80%;
+    margin-top: 1rem;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 10px;
+    padding: 0px;
+    color: rgb(193, 192, 192);
+    position:relative;
+}
+
+.skill-card {
+    background:transparent;
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(227, 255, 11, 0.792);
+    padding: 10px;
+    width: 100px;
+    text-align: center;
+    transition: transform 0.2s;
+    margin-bottom: 20px;
+}
+
+
+.skill-card h2 {
+    margin-bottom: 20px;
+    font-size: 0.5em;
+}
+
+.icon-container {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+.icon {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(254, 254, 254);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}  
+}
+@media (max-height:746px) {
+    .skills-container {
+margin-top: 10rem;
+    }
+}

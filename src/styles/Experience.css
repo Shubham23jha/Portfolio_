@@ -1,0 +1,99 @@
+.experience-container {
+    background-color: rgba(0, 0, 0, 0.087);
+    height:100vh;
+    padding: 20px;
+    margin: 0;
+    margin-top: 1rem;
+    
+  }
+ 
+  .text-status{
+    font-size: 0.08rem;
+  }
+  .horizontal-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .card-container {
+    flex: 1;
+    background-color: rgba(1, 1, 1, 0.189);
+    box-shadow: 0px 0px 10px rgb(255, 255, 255); /* Yellow box shadow */
+    padding: 20px;
+    border-radius: 10px;
+    overflow-y: auto;
+    width: calc(25% - 20px); /* 25% of screen width minus gap */
+    max-height: calc(80vh - 40px); /* 1/3 of screen height minus padding */
+  }
+
+
+  
+  .scrollable-cards {
+    max-height: 100%; /* Allow cards to fill their container's height */
+    overflow-y: auto;
+  }
+  
+  .card {
+    margin-bottom: 20px;
+    border: 1px solid rgb(11, 11, 11);
+    border-radius: 8px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.105);
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .card-body {
+    padding: 10px;
+  }
+  
+  .card-title {
+    font-size: 24px; /* Larger font size */
+    font-family: 'Cinzel', serif; /* Use Cinzel font */
+    margin-bottom: 10px; /* Space below title */
+  }
+  
+  .card-text {
+    color: #ffffff;
+    font-size: 16px;
+  }
+  
+  .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 900px) {
+    .experience-container{
+      height:max-content;
+      padding-top: 2rem ;
+      
+    }
+    .horizontal-container {
+      display: block;
+      
+    }
+    .card-container {
+      flex: 1;
+      background-color: rgba(1, 1, 1, 0.189);
+      box-shadow: 0px 0px 10px rgb(255, 255, 255); /* Yellow box shadow */
+      padding: 10px;
+      margin-top:1rem;
+      border-radius: 10px;
+      overflow-y: auto;
+      width: calc(100% - 5px); /* 25% of screen width minus gap */
+      max-height: 30vh; /* 1/3 of screen height minus padding */
+    }
+  }
+  

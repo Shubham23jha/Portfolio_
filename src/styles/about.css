@@ -1,0 +1,10 @@
+
+@media (max-width:900px) {
+    .skills{
+        margin-top: 0;
+        width:100%;
+    }
+    .about{
+        max-width: 100%;
+    }
+}

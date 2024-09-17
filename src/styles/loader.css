@@ -1,0 +1,26 @@
+.loader-container {
+    position: relative;
+    width: 100%;
+    height: 2 rem; /* Adjust the height as needed */
+    background: transparent;
+    border: 1px solid #333030;
+    border-radius: 5px;
+    overflow: hidden;
+  }
+  .loader-background{
+    height: 100vh;
+    width:100%;
+    
+  }
+  
+  .loader-bar {
+    height: 100%;
+    background-color: rgb(183, 255, 0);
+    color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    transition: width 0.02s linear; /* Transition speed matches the interval */
+  }
+  

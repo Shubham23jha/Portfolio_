@@ -1,0 +1,18 @@
+[
+  {
+    "thumbnail": "https://www.upwork.com/att/download/portfolio/persons/uid/1806942800023695360/profile/projects/files/ffefe294-df99-43f6-bacd-9b243b63e566",
+    "title": "Learning Management System",
+    "description": "I developed a comprehensive Learning Management System (LMS) from scratch using modern web technologies such as React.js, Redux Toolkit, Tailwind CSS, Axios, Node.js, Express.js, and MongoDB. The system includes secure user authentication for sign-up and login, and features role-based dashboards tailored for admins and students. Admins can upload and manage courses, while students can self-enroll in courses. Additionally, the LMS integrates admin tools for monitoring student registrations and course popularity. For payment processing, I utilized Razor Pay to ensure secure and efficient transactions.",
+    "link": "https://frontend-6wvr.onrender.com/",
+    "status": "live"
+  },
+  {
+      "thumbnail": "https://img.freepik.com/free-vector/hand-drawn-whatsapp-chat-template_23-2151197280.jpg?w=740&t=st=1726579821~exp=1726580421~hmac=dc18046eedceea07355f0b9b7daa41ada6b4e9ca431100e7c04f896e212c55c5",
+      "title": "Chat Application",
+      "description": "Responsive user interface having features like signup, login, send friend request, accept friend request, chat, create and manage group, delete chat, leave groups, send attachments, notification, search friends, animation while user on other side typed on chat with current user. React, redux toolkit with material-ui was incorporated. Mongodb and Mongoose were used for data modeling, storage and retrieval JWT tokenization accompanied with Bcrypt ensured secure authentication. REST api were created for all visible functionalities.",
+      "link": "https://chat-frontend-teal.vercel.app/",
+      "status": "live"
+    }
+  
+  ]
+  
